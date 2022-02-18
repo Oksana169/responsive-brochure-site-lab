@@ -1,0 +1,221 @@
+@media only screen and (max-width: 1008px) {
+    .wrapper {
+        width: 90%;
+    }
+    #social { 
+        position: absolute;
+        top: 82px; 
+        right: 4px;
+    }
+    .hamburger {
+        display: none;
+    }
+    #navhamburger {
+        display: none;
+    }
+     
+}
+
+@media only screen and (min-width: 1008px) {
+    .hamburger {
+        display: none;
+    }
+    #navhamburger {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        font-size: 85%;
+    }
+    #logo h1 {
+        height: 35px;
+        width: 35px;
+    }
+   
+    #social {
+        position: absolute;
+        top: 72px;
+    }
+
+    #logo h2 {
+        font: size 2.2em;
+        position: relative;
+        top: -10px;
+        left: 5px;}
+
+    .col-3 p {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;}
+
+    .hamburger {
+            display: none;
+        }
+     #navhamburger {
+            display: none;
+        }
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    body {
+        font-size: 85%;
+    }
+
+    #logo h1 {
+        height: 35px;
+        width: 35px;
+    }
+
+    #logo h2 {
+        font: size 2em;}
+            
+    #social {
+        position: absolute;
+        top: 72px;
+    }
+
+    #navbar nav a {
+        font-size: 0.9em;
+    }
+    .col-3 p {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;}
+
+    .col-1, .col-2, .col-3 {
+            width: 100%;
+            margin-left: 0;
+            float: none;
+        }
+    .border-right {
+            border-right: 0;
+        }
+
+     #details div {
+            height: auto;
+        }
+
+    .hamburger {
+            display: none;
+        }
+       
+    #navhamburger {
+            display: none;
+        }
+
+        #cards .card-1 {
+            float: none;
+            width: 100%;
+           max-width: 100%;
+           border: 0;  
+          }
+          
+          #cards .card-2 {
+            float: none;
+            width: 100%;
+            max-width: 100%;
+            border: 0; 
+            margin-left: 0%;
+        
+          }
+           
+          #cards .card-3 {
+            float: none;
+            width: 100%;
+            max-width: 100%;
+            border: 0; 
+          }
+    }
+
+    @media only screen and (max-width: 700px) {
+
+        #logo h1 {
+            position: absolute;
+            top: 42px;
+            width: 30px;
+            height: 30px;
+        }
+
+        #logo h2 {
+            display: none;
+        }
+
+        #logo h5 {
+            display: none;
+        }
+
+        #social {
+            position: absolute;
+            top: 42px;
+            right: 27px;
+            width: 131px;
+            margin-left: 10px;
+            z-index: 2;
+          }
+          
+          #social a {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            margin-left: 10px
+          }
+       
+
+      #navhamburger {
+          display: block;
+          padding: 20px;
+         margin-bottom: 13px;
+         background: -webkit-linear-gradient(top,  #b66226 0%,#ffffff 24%,#ffffff 68%,  #b66226 100%);
+      }
+
+      .hamburger {
+        display: block;
+    }
+     #navbar {
+      display: none;
+  }
+    
+    #cards .card-1 {
+        float: none;
+        width: 100%;
+       max-width: 100%;
+       border: 0;  
+      }
+      
+      #cards .card-2 {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        border: 0; 
+        margin-left: 0%;
+    
+      }
+       
+      #cards .card-3 {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        border: 0; 
+      }
+
+    }
+
+   
+
+        
+       
+
+       
+       
+
+    
+
+ 
